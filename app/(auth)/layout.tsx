@@ -18,7 +18,7 @@ const Layout = async ({ children }: { children: React.ReactNode }) => {
             alt="Signalist logo"
             width={140}
             height={32}
-            className="h-8 w-auto"
+            className="!h-8 w-auto !h-[10rem]"
           />
         </Link>
 
@@ -53,11 +53,11 @@ const Layout = async ({ children }: { children: React.ReactNode }) => {
 
         <div className="flex-1 relative">
           <Image
-            src="/assets/images/dashboard.png"
+            src="/assets/images/logo.png"
             alt="Dashboard Preview"
             width={1440}
             height={1150}
-            className="auth-dashboard-preview absolute top-0"
+            className="auth-dashboard-preview absolute top-0 !w-auto"
           />
         </div>
       </section>
