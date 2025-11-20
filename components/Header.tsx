@@ -13,10 +13,10 @@ const Header = async ({ user }: { user: User }) => {
         <Link href="/">
           <Image
             src="/assets/icons/logo.svg"
-            alt="Signalist logo"
+            alt="Sigmax logo"
             width={140}
             height={32}
-            className="!h-8 w-auto cursor-pointer !h-[10rem]"
+            className="!h-8 w-auto cursor-pointer !h-[5rem]"
           />
         </Link>
         <nav className="hidden sm:block">

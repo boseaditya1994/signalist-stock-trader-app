@@ -15,10 +15,10 @@ const Layout = async ({ children }: { children: React.ReactNode }) => {
         <Link href="/" className="auth-logo">
           <Image
             src="/assets/icons/logo.svg"
-            alt="Signalist logo"
+            alt="Sigmax logo"
             width={140}
             height={32}
-            className="!h-8 w-auto !h-[10rem]"
+            className="!h-8 w-auto !h-[5rem]"
           />
         </Link>
 
